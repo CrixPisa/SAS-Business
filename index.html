@@ -249,14 +249,12 @@ ${S}`}class Je extends Error{constructor({message:a,code:l,cause:o,name:d}){var 
     /* Toolbar */
     .toolbar {
       position: sticky; top: 0; z-index: 100;
-      background: white;
-      border-bottom: 1px solid #e2e8f0;
+      background: #1e293b;
       padding: 0 32px;
-      height: 60px;
+      height: 56px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      box-shadow: 0 1px 8px rgba(0,0,0,0.06);
     }
     .toolbar-left {
       display: flex;
@@ -270,40 +268,39 @@ ${S}`}class Je extends Error{constructor({message:a,code:l,cause:o,name:d}){var 
       font-weight: 700;
       padding: 3px 10px;
       border-radius: 20px;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.05em;
     }
     .toolbar-title {
-      font-weight: 700;
-      color: #1e293b;
-      font-size: 15px;
+      font-weight: 600;
+      color: #cbd5e1;
+      font-size: 14px;
     }
     .toolbar-right {
       display: flex;
       align-items: center;
-      gap: 20px;
+      gap: 16px;
     }
     .toolbar-hint {
       font-size: 12px;
-      color: #94a3b8;
+      color: #64748b;
       text-align: right;
       line-height: 1.5;
     }
-    .toolbar-hint strong { color: #64748b; }
+    .toolbar-hint strong { color: #94a3b8; }
     .btn-pdf {
       background: ${a};
       color: white;
       border: none;
       border-radius: 10px;
-      padding: 0 24px;
-      height: 40px;
+      padding: 0 20px;
+      height: 38px;
       font-family: 'Inter', Arial, sans-serif;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 700;
       cursor: pointer;
       display: flex;
       align-items: center;
       gap: 8px;
-      transition: opacity 0.15s;
       white-space: nowrap;
     }
     .btn-pdf:hover { opacity: 0.88; }
