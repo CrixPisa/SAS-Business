@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calcolo Tasse Regime Forfettario 2026 – Guida Completa e Simulatore</title>
+  <meta name="description" content="Come calcolare le tasse in regime forfettario nel 2026. Aliquota 5% o 15%, coefficienti di redditività, INPS, contributi minimi. Simulatore gratuito online."/>
+  <meta name="keywords" content="calcolo tasse forfettario 2026, regime forfettario calcolo, aliquota forfettario, coefficiente redditività, INPS forfettario, tasse partita IVA forfettario"/>
+  <link rel="canonical" href="https://business-servizi.com/blog/calcolo-tasse-forfettario-2026.html"/>
+  <meta property="og:title" content="Calcolo Tasse Regime Forfettario 2026 – Guida Completa"/>
+  <meta property="og:description" content="Scopri come calcolare le tasse in regime forfettario 2026. Aliquote, coefficienti, INPS e simulatore gratuito."/>
+  <meta property="og:url" content="https://business-servizi.com/blog/calcolo-tasse-forfettario-2026.html"/>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',Arial,sans-serif;background:#0f1117;color:#e8e8f0;line-height:1.7}
+    .nav{background:rgba(10,10,18,0.95);border-bottom:1px solid rgba(255,255,255,0.08);padding:0 24px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+    .logo{font-size:18px;font-weight:800;color:#00E5C8;text-decoration:none}
+    .nav-links a{color:#8888aa;text-decoration:none;margin-left:20px;font-size:13px}
+    .nav-links a:hover{color:#00E5C8}
+    .hero{background:linear-gradient(135deg,#0a1628 0%,#0f1117 100%);padding:60px 24px 40px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.06)}
+    .badge{display:inline-block;padding:4px 14px;border-radius:20px;background:rgba(0,229,200,0.1);border:1px solid rgba(0,229,200,0.25);color:#00E5C8;font-size:11px;font-weight:700;margin-bottom:16px}
+    h1{font-size:clamp(26px,4vw,42px);font-weight:800;color:#f0f0fa;margin-bottom:16px;line-height:1.2}
+    .hero p{color:#8888aa;font-size:16px;max-width:620px;margin:0 auto}
+    .container{max-width:820px;margin:0 auto;padding:48px 24px}
+    h2{font-size:24px;font-weight:700;color:#00E5C8;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid rgba(0,229,200,0.15)}
+    h3{font-size:18px;font-weight:600;color:#f0f0fa;margin:24px 0 10px}
+    p{color:#aaaacc;margin-bottom:16px}
+    .info-box{background:rgba(0,229,200,0.06);border:1px solid rgba(0,229,200,0.2);border-radius:12px;padding:20px;margin:24px 0}
+    .info-box strong{color:#00E5C8}
+    .warning-box{background:rgba(255,181,71,0.06);border:1px solid rgba(255,181,71,0.2);border-radius:12px;padding:20px;margin:24px 0}
+    .warning-box strong{color:#FFB547}
+    table{width:100%;border-collapse:collapse;margin:20px 0;border-radius:10px;overflow:hidden}
+    th{background:rgba(0,229,200,0.1);color:#00E5C8;padding:12px 16px;text-align:left;font-size:13px;font-weight:700}
+    td{padding:11px 16px;border-bottom:1px solid rgba(255,255,255,0.05);color:#aaaacc;font-size:14px}
+    tr:hover td{background:rgba(255,255,255,0.02)}
+    .calc-box{background:rgba(15,17,23,0.8);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:28px;margin:32px 0}
+    .calc-box h3{color:#f0f0fa;margin-bottom:20px}
+    .field-group{margin-bottom:16px}
+    label{display:block;font-size:13px;color:#8888aa;margin-bottom:6px;font-weight:600}
+    input,select{width:100%;padding:10px 14px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:8px;color:#f0f0fa;font-size:14px;outline:none}
+    input:focus,select:focus{border-color:#00E5C8}
+    .btn{width:100%;padding:13px;border-radius:10px;background:linear-gradient(135deg,#00E5C8,#4F8EF7);border:none;color:#0f1117;font-size:14px;font-weight:700;cursor:pointer;margin-top:8px}
+    .result-box{background:rgba(0,229,200,0.06);border:1px solid rgba(0,229,200,0.2);border-radius:10px;padding:16px;margin-top:16px;display:none}
+    .result-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-size:14px}
+    .result-row:last-child{border:none;font-weight:700;color:#00E5C8;font-size:16px;padding-top:10px}
+    .cta-box{background:linear-gradient(135deg,rgba(0,229,200,0.08),rgba(79,142,247,0.08));border:1px solid rgba(0,229,200,0.2);border-radius:16px;padding:32px;text-align:center;margin:40px 0}
+    .cta-box a{display:inline-block;padding:12px 28px;border-radius:10px;background:linear-gradient(135deg,#00E5C8,#4F8EF7);color:#0f1117;font-weight:700;text-decoration:none;margin-top:12px}
+    footer{background:rgba(10,10,18,0.9);border-top:1px solid rgba(255,255,255,0.06);padding:32px 24px;text-align:center;color:#44445a;font-size:13px}
+    footer a{color:#00E5C8;text-decoration:none}
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="logo">Business Servizi</a>
+  <div class="nav-links">
+    <a href="/">Home</a>
+    <a href="/blog/">Blog</a>
+    <a href="/#strumenti">Strumenti</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="badge">📊 Guida Fiscale 2026</div>
+  <h1>Calcolo Tasse Regime Forfettario 2026</h1>
+  <p>Tutto quello che devi sapere su aliquote, coefficienti di redditività e contributi INPS. Con simulatore gratuito.</p>
+</div>
+
+<div class="container">
+
+  <div class="info-box">
+    <strong>✅ Aggiornato al 2026:</strong> Il regime forfettario è rimasto invariato rispetto al 2025. Limite di ricavi: <strong>85.000€</strong>. Aliquota agevolata: <strong>5%</strong> per i primi 5 anni (nuove attività), <strong>15%</strong> per gli altri.
+  </div>
+
+  <h2>Cos'è il Regime Forfettario?</h2>
+  <p>Il regime forfettario è un regime fiscale agevolato per Partite IVA con ricavi sotto gli 85.000€ annui. Si caratterizza per:</p>
+  <ul style="color:#aaaacc;padding-left:20px;margin-bottom:16px">
+    <li style="margin-bottom:8px">Nessuna IVA da applicare nelle fatture</li>
+    <li style="margin-bottom:8px">Imposta sostitutiva del 15% (o 5% per i primi 5 anni)</li>
+    <li style="margin-bottom:8px">Deduzione forfettaria delle spese tramite coefficiente di redditività</li>
+    <li style="margin-bottom:8px">Contabilità semplificata</li>
+  </ul>
+
+  <h2>Come si Calcola l'Imponibile</h2>
+  <p>La formula è semplice:</p>
+  <div class="info-box">
+    <strong>Imponibile = Ricavi × Coefficiente di redditività</strong><br/><br/>
+    <strong>Imposta = Imponibile × 15% (o 5%)</strong>
+  </div>
+
+  <h2>Coefficienti di Redditività per Codice ATECO 2026</h2>
+  <table>
+    <tr><th>Categoria</th><th>ATECO</th><th>Coefficiente</th></tr>
+    <tr><td>Industria, artigianato, commercio ambulante</td><td>10-33</td><td>40%</td></tr>
+    <tr><td>Commercio all'ingrosso e al dettaglio</td><td>45-47</td><td>40%</td></tr>
+    <tr><td>Alloggio e ristorazione</td><td>55-56</td><td>40%</td></tr>
+    <tr><td>Attività professionali, scientifiche, tecniche</td><td>62-75</td><td>78%</td></tr>
+    <tr><td>Servizi di informazione e comunicazione</td><td>58-63</td><td>78%</td></tr>
+    <tr><td>Costruzioni e attività immobiliari</td><td>41-43</td><td>86%</td></tr>
+    <tr><td>Altre attività economiche</td><td>Altri</td><td>67%</td></tr>
+  </table>
+
+  <h2>Simulatore Calcolo Tasse Forfettario 2026</h2>
+  <div class="calc-box">
+    <h3>💰 Calcola le tue tasse</h3>
+    <div class="field-group">
+      <label>Ricavi/compensi annui (€)</label>
+      <input type="number" id="ricavi" placeholder="es. 30000"/>
+    </div>
+    <div class="field-group">
+      <label>Coefficiente di redditività (%)</label>
+      <select id="coeff">
+        <option value="40">40% – Commercio, artigianato, ristorazione</option>
+        <option value="67">67% – Altre attività</option>
+        <option value="78" selected>78% – Professioni, IT, comunicazione</option>
+        <option value="86">86% – Costruzioni, immobiliare</option>
+      </select>
+    </div>
+    <div class="field-group">
+      <label>Aliquota imposta sostitutiva</label>
+      <select id="aliquota">
+        <option value="5">5% – Nuova attività (primi 5 anni)</option>
+        <option value="15" selected>15% – Attività avviata</option>
+      </select>
+    </div>
+    <div class="field-group">
+      <label>Contributi INPS versati (€) <span style="color:#666;font-size:11px">— deducibili dall'imponibile</span></label>
+      <input type="number" id="inps" placeholder="es. 3900"/>
+    </div>
+    <button class="btn" onclick="calcolaForfettario()">🧮 Calcola le mie tasse</button>
+    <div class="result-box" id="risultato">
+      <div class="result-row"><span>Ricavi lordi</span><span id="r-ricavi">—</span></div>
+      <div class="result-row"><span>Imponibile forfettario</span><span id="r-imponibile">—</span></div>
+      <div class="result-row"><span>Contributi INPS deducibili</span><span id="r-inps">—</span></div>
+      <div class="result-row"><span>Base imponibile netta</span><span id="r-base">—</span></div>
+      <div class="result-row"><span>Imposta sostitutiva</span><span id="r-imposta">—</span></div>
+      <div class="result-row"><span>📌 Netto stimato</span><span id="r-netto">—</span></div>
+    </div>
+  </div>
+
+  <h2>INPS nel Regime Forfettario 2026</h2>
+  <p>I contributi INPS dipendono dalla gestione previdenziale:</p>
+  <table>
+    <tr><th>Gestione</th><th>Aliquota 2026</th><th>Minimale</th></tr>
+    <tr><td>Gestione Separata INPS (professionisti senza cassa)</td><td>26,07%</td><td>~4.200€/anno</td></tr>
+    <tr><td>Artigiani</td><td>24%</td><td>~3.900€/anno</td></tr>
+    <tr><td>Commercianti</td><td>24,48%</td><td>~3.950€/anno</td></tr>
+  </table>
+
+  <div class="warning-box">
+    <strong>⚠️ Attenzione:</strong> Se sei anche dipendente, potresti essere esonerato dai contributi fissi INPS come forfettario. Verifica con il tuo commercialista.
+  </div>
+
+  <h2>Quando Conviene il Forfettario?</h2>
+  <p>Il forfettario conviene generalmente quando:</p>
+  <ul style="color:#aaaacc;padding-left:20px;margin-bottom:16px">
+    <li style="margin-bottom:8px">I ricavi sono sotto 85.000€</li>
+    <li style="margin-bottom:8px">Le spese reali sono inferiori alla deduzione forfettaria</li>
+    <li style="margin-bottom:8px">Non si ha bisogno di detrarre l'IVA sugli acquisti</li>
+    <li style="margin-bottom:8px">Si è nei primi 5 anni di attività (aliquota 5%)</li>
+  </ul>
+
+  <h2>Quando NON Conviene il Forfettario?</h2>
+  <p>Valuta il regime ordinario se:</p>
+  <ul style="color:#aaaacc;padding-left:20px;margin-bottom:16px">
+    <li style="margin-bottom:8px">Hai molte spese reali detraibili (ufficio, attrezzature, ecc.)</li>
+    <li style="margin-bottom:8px">I tuoi clienti sono aziende che detraggono l'IVA</li>
+    <li style="margin-bottom:8px">Prevedi di superare gli 85.000€</li>
+  </ul>
+
+  <div class="cta-box">
+    <h3 style="color:#f0f0fa;margin-bottom:8px">🧮 Altri strumenti gratuiti</h3>
+    <p style="color:#8888aa">Calcola IVA, ritenuta d'acconto, stipendio netto e genera fatture PDF gratuitamente.</p>
+    <a href="/">Vai agli strumenti →</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 <a href="/">Business Servizi</a> — Strumenti fiscali gratuiti per Partite IVA italiane</p>
+  <p style="margin-top:8px"><a href="/blog/">Blog</a> · <a href="/blog/calcolo-tasse-forfettario-2026.html">Forfettario 2026</a> · <a href="/blog/come-fare-fattura-elettronica-gratis.html">Fattura elettronica</a></p>
+</footer>
+
+<script>
+function fmt(n){return n.toLocaleString('it-IT',{minimumFractionDigits:2,maximumFractionDigits:2})+'€'}
+function calcolaForfettario(){
+  const ricavi = parseFloat(document.getElementById('ricavi').value)||0
+  const coeff  = parseFloat(document.getElementById('coeff').value)/100
+  const aliq   = parseFloat(document.getElementById('aliquota').value)/100
+  const inps   = parseFloat(document.getElementById('inps').value)||0
+  if(ricavi<=0){alert('Inserisci i tuoi ricavi annui');return}
+  const imponibile = ricavi*coeff
+  const base       = Math.max(0, imponibile-inps)
+  const imposta    = base*aliq
+  const netto      = ricavi-imposta-inps
+  document.getElementById('r-ricavi').textContent    = fmt(ricavi)
+  document.getElementById('r-imponibile').textContent= fmt(imponibile)
+  document.getElementById('r-inps').textContent      = '- '+fmt(inps)
+  document.getElementById('r-base').textContent      = fmt(base)
+  document.getElementById('r-imposta').textContent   = fmt(imposta)
+  document.getElementById('r-netto').textContent     = fmt(netto)
+  const el = document.getElementById('risultato')
+  el.style.display='block'
+  el.scrollIntoView({behavior:'smooth',block:'nearest'})
+}
+</script>
+</body>
+</html>
