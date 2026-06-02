@@ -2,19 +2,18 @@
 <html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <title>Business Servizi</title>
+    <title>FrameAI Studio</title>
     <script>
-      // GitHub Pages SPA redirect trick
-      // Quando GitHub Pages non trova una pagina, serve questo 404.html
-      // che reindirizza alla homepage preservando il path come query string
+      // GitHub Pages SPA redirect
       var path = window.location.pathname;
       var search = window.location.search;
       var hash = window.location.hash;
-      var redirectUrl = window.location.origin + '/?p=' + encodeURIComponent(path + search + hash);
-      window.location.replace(redirectUrl);
+      window.location.replace(
+        window.location.origin + '/?p=' + encodeURIComponent(path + search + hash)
+      );
     </script>
   </head>
   <body>
-    <p>Reindirizzamento in corso...</p>
+    <p>Reindirizzamento...</p>
   </body>
 </html>

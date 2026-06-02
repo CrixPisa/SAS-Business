@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /cinema
+Disallow: /ads
+Disallow: /music
+Disallow: /image
+Disallow: /dashboard
 
-Sitemap: https://business-servizi.com/sitemap.xml
+Sitemap: https://frame-studio-ai.com/sitemap.xml
