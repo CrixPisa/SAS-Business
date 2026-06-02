@@ -3,72 +3,81 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://frame-studio-ai.com/</loc>
+    <loc>https://business-servizi.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-04-29</lastmod>
   </url>
 
-  <!-- Prezzi -->
+  <!-- Blog index -->
   <url>
-    <loc>https://frame-studio-ai.com/pricing</loc>
+    <loc>https://business-servizi.com/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-04-29</lastmod>
+  </url>
+
+  <!-- Articoli IT — Alta priorità SEO -->
+  <url>
+    <loc>https://business-servizi.com/blog/calcolo-tasse-forfettario-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <lastmod>2026-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://business-servizi.com/blog/codici-ateco-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <lastmod>2026-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://business-servizi.com/blog/come-fare-fattura-elettronica-gratis.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://business-servizi.com/blog/calcolo-stipendio-netto-guida-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <lastmod>2026-01-01</lastmod>
+  </url>
+  <url>
+    <loc>https://business-servizi.com/blog/calcolo-tfr-guida-completa-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <lastmod>2026-01-01</lastmod>
+  </url>
+  <url>
+    <loc>https://business-servizi.com/blog/ritenuta-acconto-calcolo-guida-2025.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <lastmod>2026-01-01</lastmod>
   </url>
 
-  <!-- Auth -->
+  <!-- Pagine statiche -->
   <url>
-    <loc>https://frame-studio-ai.com/register</loc>
+    <loc>https://business-servizi.com/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://frame-studio-ai.com/login</loc>
+    <loc>https://business-servizi.com/register</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- App principale -->
   <url>
-    <loc>https://frame-studio-ai.com/cinema</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://business-servizi.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://frame-studio-ai.com/image</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://frame-studio-ai.com/music</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://frame-studio-ai.com/ads</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://frame-studio-ai.com/tools</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-
-  <!-- Legale -->
-  <url>
-    <loc>https://frame-studio-ai.com/privacy</loc>
+    <loc>https://business-servizi.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://frame-studio-ai.com/termini</loc>
+    <loc>https://business-servizi.com/termini</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
